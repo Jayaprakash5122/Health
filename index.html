@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title style="background-image: url(./new/jm.png)">Body Health</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <img src="./new/jm.png" class="logo" />
+        <span class="brand-text">BodyHealth</span>
+      </div>
+      <nav>
+        <a onclick="showSection('home')">Home</a>
+        <a onclick="showSection('calculator')">Protein</a>
+        <a onclick="showSection('foods')">Foods</a>
+        <a onclick="showSection('loginpage')">Login</a>
+      </nav>
+    </header>
+    <!-- login -->
+    <section id="loginpage">
+      <div id="login-box">
+        <h1 class="bh-title">SIGN IN</h1>
+        <p class="bh-subtitle">Sign in to your BodyHealth account</p>
+
+        <a
+          href="https://accounts.google.com/signin/v2/identifier"
+          class="bh-social"
+        >
+          <i class="fa-brands fa-google"></i> Continue with Google</a
+        >
+        <a href="https://appleid.apple.com/sign-in" class="bh-social"
+          ><i class="fa-brands fa-apple"></i> Continue with Apple</a
+        >
+        <a href="https://www.linkedin.com/login" class="bh-social"
+          ><i class="fa-brands fa-linkedin"></i> Continue with LinkedIn</a
+        >
+
+        <div class="bh-or">or</div>
+
+        <input type="email" id="username" placeholder="Username or Email" />
+
+        <div class="password-box">
+          <input type="password" id="password" placeholder="Password" />
+          <i class="fa-solid fa-eye" id="togglePassword"></i>
+        </div>
+
+        <!-- <p id="errorMsg" class="error"></p> -->
+
+        <div class="bh-options">
+          <label><input type="checkbox" /> Remember me</label>
+          <a
+            href="https://accounts.google.com/signin/v2/recoveryidentifier"
+            target="_blank"
+            >Forgot password?</a
+          >
+        </div>
+
+        <button class="bh-login-btn" onclick="signIn()">
+          Sign In Securely
+        </button>
+
+        <div id="errorMsg" class="error"></div>
+      </div>
+    </section>
+
+    <section id="home" class="active">
+      <div class="home-text">
+        <h2>Stay Safe, Stay Healthy</h2>
+        <p>
+          Calculate your daily protein needs to body and explore healthy protein
+          foods.
+        </p>
+        <button onclick="showSection('calculator')">Get Started</button>
+        <button onclick="showSection('loginpage')" id="jp">Login</button>
+      </div>
+      <div class="home-img">
+        <!-- <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png"> -->
+      </div>
+    </section>
+
+    <section id="calculator">
+      <div class="calc-card">
+        <h3>Protein Calculator</h3>
+        <input type="number" id="weight" placeholder="Body weight (kg)" />
+        <select id="activity">
+          <div class="special">
+            <option value="0">Activity Level</option>
+            <option value="0.8">Not Active</option>
+            <option value="1.2">Moderate</option>
+            <option value="1.6">Active</option>
+            <option value="2">Sports Player</option>
+          </div>
+        </select>
+        <button onclick="calculateProtein()">Calculate</button>
+        <div id="result"></div>
+      </div>
+    </section>
+
+    <section id="foods">
+      <h2 class="foo">Protein Rich Foods (per 100g)</h2>
+      <div class="search-container">
+        <input
+          type="text"
+          id="foodSearch"
+          placeholder="Search food..."
+          onkeyup="searchFood()"
+        />
+        <i class="search-icon">🔍</i>
+      </div>
+
+      <div class="food-grid">
+        <div class="food-card">
+          <img
+            src="./new/egg.jpg"
+          />
+          <h4 class="food-name">Egg</h4>
+          <p class="food-protein">7 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/chicken.jpg"
+          />
+          <h4 class="food-name">Chicken</h4>
+          <p class="food-protein">27 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/fish.jpg"
+          />
+          <h4 class="food-name">Fish</h4>
+          <p class="food-protein">22 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/panner.jpg"
+          />
+          <h4 class="food-name">Paneer</h4>
+          <p class="food-protein">20 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/almonds.jpg"
+          />
+          <h4 class="food-name">Almonds</h4>
+          <p class="food-protein">20 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/soyabadi.jpg"
+          />
+          <h4 class="food-name">Soybeans</h4>
+          <p class="food-protein">36 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/peanuts.jpg"/>
+          <h4 class="food-name">Peanuts</h4>
+          <p class="food-protein">28.5 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/glass-of-milk.jpg"
+          />
+          <h4 class="food-name">Milk</h4>
+          <p class="food-protein">3.4 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/oats.jpg"
+          />
+          <h4 class="food-name">Oats</h4>
+          <p class="food-protein">13 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/peanut butter.jpg"
+          />
+          <h4 class="food-name">Peanut Butter</h4>
+          <p class="food-protein">7 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/yogut.jpg"
+          />
+          <h4 class="food-name">Greek yogurt</h4>
+          <p class="food-protein">15 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/cashews.jpg"
+          />
+          <h4 class="food-name">Cashews</h4>
+          <p class="food-protein">18 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/Pistachios.jpg"
+          />
+          <h4 class="food-name">Pistachios</h4>
+          <p class="food-protein">20 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/walnuts.jpg"
+          />
+          <h4 class="food-name">walnut</h4>
+          <p class="food-protein">15 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/Avocado.jpg"
+          />
+          <h4 class="food-name">Avocado</h4>
+          <p class="food-protein">4 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/Lentils.jpg"
+          />
+          <h4 class="food-name">Lentils</h4>
+          <p class="food-protein">9 g protein</p>
+        </div>
+         <div class="food-card">
+          <img
+            src="./new/beef.jpg"
+          />
+          <h4 class="food-name">Beef</h4>
+          <p class="food-protein">26 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/edamame.jpeg"
+          />
+          <h4 class="food-name">Edamame</h4>
+          <p class="food-protein">11 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/Lima beans.jpg"
+          />
+          <h4 class="food-name">Lima Bean</h4>
+          <p class="food-protein">8 g protein</p>
+        </div>
+         <div class="food-card">
+          <img
+            src="./new/sunflower seed.webp"
+          />
+          <h4 class="food-name">Sunflower Seeds</h4>
+          <p class="food-protein">21 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/cheese.webp"
+          />
+          <h4 class="food-name">Cheese</h4>
+          <p class="food-protein">25 g protein</p>
+        </div>
+         <div class="food-card">
+          <img
+            src="./new/bread.jpg"
+          />
+          <h4 class="food-name">Bread</h4>
+          <p class="food-protein">9 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/cereal.webp"
+          />
+          <h4 class="food-name">Cereal</h4>
+          <p class="food-protein">13 g protein</p>
+        </div>
+        <div class="food-card">
+          <img
+            src="./new/wheat.webp"
+          />
+          <h4 class="food-name">Wheat</h4>
+          <p class="food-protein">14 g protein</p>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
