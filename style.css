@@ -33,13 +33,13 @@ nav a {
   margin-right: 50px;
   position: relative;
   font-size: 19px;
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 nav a:hover {
   padding: 4px;
- background-color: #17387a ;
+  background-color: #17387a;
   border-radius: 6px;
-  color:black;
+  color: black;
   width: 10px;
 }
 section {
@@ -74,15 +74,15 @@ section {
 }
 .home-text button {
   padding: 12px 22px;
-  background:  rgba(17, 236, 236, 0.6);
-  color:white;
+  background: rgba(17, 236, 236, 0.6);
+  color: white;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   margin-top: 50px;
 }
-.home-text button:hover{
-  background:  rgba(28, 152, 152, 0.6);
+.home-text button:hover {
+  background: rgba(28, 152, 152, 0.6);
 }
 .home-img img {
   width: 350px;
@@ -133,33 +133,33 @@ section {
   color: #fff;
 }
 .calc-card button {
-  width:100%;
-  padding:12px;
-  margin-top:15px;
-  border:none;
-  border-radius:25px;
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
   background: #1a2b52;
-  font-weight:bold;
-  cursor:pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 .calc-card button:hover {
   background: #244ba5;
 }
-#activity{
-   color: #fff;
-   background: #1a2b52;
-}
-.special{
+#activity {
+  color: #fff;
   background: #1a2b52;
-  color:white ;
+}
+.special {
+  background: #1a2b52;
+  color: white;
   text-shadow: 2px 2px 3px gray;
 }
-option{
-   background: #1a2b52;
-  color:white ;
+option {
+  background: #1a2b52;
+  color: white;
   text-shadow: 2px 2px 3px gray;
 }
-option:hover{
+option:hover {
   background: #032e92;
 }
 /* FOODS */
@@ -167,11 +167,11 @@ option:hover{
   flex-direction: column;
   background: radial-gradient(circle, #1e90ff33, #020b1c 49%);
 }
-.foo{
-   color: white;
-   text-shadow: 2px 2px 3px gray;
-   font-family: Arial, Helvetica, sans-serif;
-   font-size: 30px;
+.foo {
+  color: white;
+  text-shadow: 2px 2px 3px gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 .food-grid {
   display: grid;
@@ -188,8 +188,8 @@ option:hover{
   text-align: center;
   color: white;
   overflow: hidden;
-  width: 288px;         
-  height: 230px; 
+  width: 288px;
+  height: 230px;
   transition: 0.3s;
 }
 .food-card:hover {
@@ -197,8 +197,8 @@ option:hover{
   box-shadow: 0 0 35px #027ffdf0;
   border-radius: 20px;
   color: white;
-  width: 300px;         
-  height: 250px; 
+  width: 300px;
+  height: 250px;
 }
 .food-card img {
   width: 100%;
@@ -238,7 +238,7 @@ option:hover{
   font-size: 40px;
   font-weight: bold;
   color: #163680;
-  text-shadow: 2px 2px 4px  #142e6b;
+  text-shadow: 2px 2px 4px #142e6b;
 }
 
 .jm {
@@ -250,29 +250,6 @@ option:hover{
   width: 100%;
   max-width: 1200px;
   margin: auto;
-}
-@media (max-width: 1000px) {
-  nav {
-    flex-direction: column;
-  }
-
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-@media (max-width: 768px) {
-  h1 {
-    font-size: 24px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-
-  button {
-    width: 100%;
-  }
 }
 
 /* Login */
@@ -296,12 +273,12 @@ option:hover{
 .bh-title {
   letter-spacing: 4px;
   font-family: Arial, Helvetica, sans-serif;
-  text-shadow:2px 2px 3px gray;
+  text-shadow: 2px 2px 3px gray;
 }
 .bh-subtitle {
   color: #aaa;
   margin: 10px 0 20px;
-  text-shadow:2px 2px 3px gray;
+  text-shadow: 2px 2px 3px gray;
 }
 .bh-social {
   display: block;
@@ -317,7 +294,7 @@ option:hover{
 .bh-social:hover {
   background: #243a70;
 }
-.bh-social i{
+.bh-social i {
   font-size: 18px;
 }
 .bh-or {
@@ -351,19 +328,19 @@ option:hover{
   color: #4da3ff;
   text-decoration: none;
 }
- .bh-login-btn{
-  width:100%;
-  padding:12px;
-  margin-top:15px;
-  border:none;
-  border-radius:25px;
-  background:#1a2b52;
+.bh-login-btn {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 25px;
+  background: #1a2b52;
   color: white;
-  font-weight:bold;
-  cursor:pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
-.bh-login-btn:hover{
-   background: #243a70;
+.bh-login-btn:hover {
+  background: #243a70;
 }
 .bottom-text {
   margin-top: 15px;
@@ -415,7 +392,7 @@ option:hover{
   color: #fff;
   font-size: 16px;
   box-shadow: 0 0 12px rgba(0, 153, 255, 0.5);
-   margin-top: 0%;
+  margin-top: 0%;
 }
 
 .search-container input::placeholder {
@@ -431,3 +408,50 @@ option:hover{
   color: #8ecbff;
 }
 
+@media (max-width: 768px) {
+  .home-text h2 {
+    font-size: 32px;
+  }
+  .home-text p {
+    font-size: 16px;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  .buttons {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .btn {
+    width: 80%;
+  }
+  .logo-container{
+     padding: 15px 20px;
+  }
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    display: none;
+  }
+   .nav-links.active {
+    display: flex;
+  }
+  .search-container {
+    width: 90%;
+    margin: 15px auto;
+  }
+
+  p {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  
+}

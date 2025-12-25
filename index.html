@@ -15,7 +15,7 @@
         <img src="./new/jm.png" class="logo" />
         <span class="brand-text">BodyHealth</span>
       </div>
-      <nav>
+      <nav class="nav-links">
         <a onclick="showSection('home')">Home</a>
         <a onclick="showSection('calculator')">Protein</a>
         <a onclick="showSection('foods')">Foods</a>
@@ -76,8 +76,10 @@
           Calculate your daily protein needs to body and explore healthy protein
           foods.
         </p>
-        <button onclick="showSection('calculator')">Get Started</button>
-        <button onclick="showSection('loginpage')" id="jp">Login</button>
+        <div class="buttons">
+        <button onclick="showSection('calculator')" class="btn">Get Started</button>
+        <button onclick="showSection('loginpage')" id="jp" class="btn">Login</button>
+        </div>
       </div>
       <div class="home-img">
         <!-- <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png"> -->
