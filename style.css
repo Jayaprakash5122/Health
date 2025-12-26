@@ -413,32 +413,35 @@ option:hover {
     font-size: 32px;
   }
   .home-text p {
-    font-size: 16px;
-    max-width: 100%;
-    padding: 0 10px;
+    font-size: 35px;
+    left: 0px;
+    margin-right: 25px;
+    padding:  0 2px;
   }
   .buttons {
     flex-direction: column;
     width: 100%;
-    align-items: center;
+    /* align-items: center; */
   }
   .btn {
-    width: 80%;
+    width: 50%;
+  }
+  .ms{
+    width: 50%;
+    margin-right: 40px;
   }
   .logo-container{
-     padding: 15px 20px;
+     left: 0px;
   }
   .nav-links {
     position: absolute;
-    top: 60px;
-    left: 0;
+    top: 90px;
+    left: 100px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);
     flex-direction: column;
     align-items: center;
-    gap: 20px;
     padding: 20px 0;
-    display: none;
+    color: white;
   }
    .nav-links.active {
     display: flex;
@@ -447,11 +450,4 @@ option:hover {
     width: 90%;
     margin: 15px auto;
   }
-
-  p {
-    font-size: 14px;
-    text-align: center;
-  }
-
-  
 }
