@@ -411,8 +411,8 @@ option:hover {
   color: #8ecbff;
 }
 
-@media (max-device-width: 400px) {
-  body {
+@media (max-device-width:400px) {
+  body{
     height: 100vh;
     width: 100vw;
   }
@@ -421,6 +421,7 @@ option:hover {
   }
   #home{
      width: 600px;
+     height: 2950px;
   }
   .home-text h2 {
     /* display: block; */
@@ -450,7 +451,7 @@ option:hover {
     position: absolute;
     top: 90px;
     left: 100px;
-    width: 500px;
+    width: 600px;
     flex-direction: column;
     align-items: center;
     padding: 20px 0;
@@ -476,7 +477,7 @@ option:hover {
   background: radial-gradient(circle, #1e90ff33, #020b1c 65%);
   z-index: 9999;
   width: 600px;
-  height: 100vh;
+  height: 2950px;
 }
 header{
   width: 600px;
@@ -485,6 +486,7 @@ header{
   flex-direction: column;
   background: radial-gradient(circle, #1e90ff33, #020b1c 49%);
   width: 600px;
+  height: 2950px;
 }
 .food-card{
    background: linear-gradient(180deg, #0c1b3a, #020b1c);
@@ -510,6 +512,7 @@ header{
   justify-content: center;
   align-items: center;
   width: 600px;
+  height: 2950px;
 }
 .home-text button:hover {
   background: rgba(28, 152, 152, 0.6);
