@@ -450,7 +450,7 @@ option:hover {
   }
 
   .home-text p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
   }
 }
@@ -462,12 +462,12 @@ option:hover {
   }
 
   .home-text button {
-    width: 80%;
+    width: 40%;
   }
 }
 @media (max-width: 480px) {
   .food-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 2fr;
   }
 }
  
