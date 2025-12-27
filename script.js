@@ -67,3 +67,6 @@ function searchFood() {
 function toggleMenu() {
   document.querySelector(".nav-links").classList.toggle("active");
 }
+function closeMenu() {
+  document.querySelector(".nav-links").classList.remove("show");
+}
