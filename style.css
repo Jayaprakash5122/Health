@@ -421,7 +421,7 @@ option:hover {
   }
   #home{
      width: 600px;
-     height: 2950px;
+     height: 100vh;
   }
   .home-text h2 {
     /* display: block; */
@@ -477,7 +477,7 @@ option:hover {
   background: radial-gradient(circle, #1e90ff33, #020b1c 65%);
   z-index: 9999;
   width: 600px;
-  height: 2950px;
+  height: 100vh;
 }
 header{
   width: 600px;
@@ -486,7 +486,7 @@ header{
   flex-direction: column;
   background: radial-gradient(circle, #1e90ff33, #020b1c 49%);
   width: 600px;
-  height: 2950px;
+  height: 100vh;
 }
 .food-card{
    background: linear-gradient(180deg, #0c1b3a, #020b1c);
@@ -512,7 +512,7 @@ header{
   justify-content: center;
   align-items: center;
   width: 600px;
-  height: 2950px;
+  height: 100vh;
 }
 .home-text button:hover {
   background: rgba(28, 152, 152, 0.6);
