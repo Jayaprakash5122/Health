@@ -250,6 +250,8 @@ option:hover {
   font-size: 2px;
   display: flex;
   position: absolute;
+  margin-right: 0px;
+   
 }
 
 .jm {
@@ -470,4 +472,14 @@ option:hover {
   .buttons {
     flex-direction: column;
   }
+}
+@media (max-width:768px){
+  .logo {
+  width: 48px;
+  height: 80px;
+  font-size: 2px;
+  display: flex;
+  position: absolute;
+  margin-right: 0px;
+}
 }
