@@ -439,4 +439,7 @@ option:hover {
   .jr{
     display: none;
   }
+  .search-container{
+        width: 50%;
+  }
 }
