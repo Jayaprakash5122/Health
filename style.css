@@ -411,7 +411,7 @@ option:hover {
 @media (max-width: 768px) {
 
   .logo-container {
-    padding: 15px 20px;
+    padding: 10px 20px;
   }
 
   .nav-links {
@@ -449,23 +449,15 @@ option:hover {
   .btn {
     flex-direction: column;
     align-items: center;
-    padding-right:90px;
-    padding-left: 0%;
-  }
-  .ms{
-    padding-left: 0px;
-    padding-top: 2px;
   }
 
   .home-text button {
-    width: 60%;
-    padding-left: 0%;
-    padding-right: 40px;
+    width: 80%;
   }
 }
 @media (max-width: 480px) {
   .food-grid {
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr;
   }
 }
  
