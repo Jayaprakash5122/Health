@@ -3,6 +3,11 @@ function showSection(id) {
     .querySelectorAll("section")
     .forEach((s) => s.classList.remove("active"));
   document.getElementById(id).classList.add("active");
+    
+  document.getElementById("nav").classList.remove("show");
+}
+function toggleMenu() {
+  document.getElementById("nav").classList.toggle("show");
 }
 function calculateProtein() {
   const w = document.getElementById("weight").value;
@@ -64,9 +69,4 @@ function searchFood() {
   });
 }
 
-function toggleMenu() {
-  document.querySelector(".nav-links").classList.toggle("active");
-}
-function closeMenu() {
-  document.querySelector(".nav-links").classList.remove("show");
-}
+ 

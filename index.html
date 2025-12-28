@@ -15,9 +15,8 @@
         <img src="./new/jm.png" class="logo" />
         <span class="brand-text">BodyHealth</span>
       </div>
-      <div class="menu-toggle" onclick="toggleMenu()">☰</div>
-
-      <nav class="nav-links">
+      <div class="menu" onclick="toggleMenu()">☰</div>
+      <nav class="nav-links" id="nav">
         <a onclick="showSection('home')">Home</a>
         <a onclick="showSection('calculator')">Protein</a>
         <a onclick="showSection('foods')">Foods</a>
@@ -79,8 +78,12 @@
           foods.
         </p>
         <div class="buttons">
-        <button onclick="showSection('calculator')" class="btn">Get Started</button>
-        <button onclick="showSection('loginpage')" id="jp" class="btn">Login</button>
+          <button onclick="showSection('calculator')" class="btn">
+            Get Started
+          </button>
+          <button onclick="showSection('loginpage')" id="jp" class="btn">
+            Login
+          </button>
         </div>
       </div>
     </section>
@@ -117,169 +120,122 @@
 
       <div class="food-grid">
         <div class="food-card">
-          <img
-            src="./new/egg.jpg"
-          />
+          <img src="./new/egg.jpg" />
           <h4 class="food-name">Egg</h4>
           <p class="food-protein">7 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/chicken.jpg"
-          />
+          <img src="./new/chicken.jpg" />
           <h4 class="food-name">Chicken</h4>
           <p class="food-protein">27 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/fish.jpg"
-          />
+          <img src="./new/fish.jpg" />
           <h4 class="food-name">Fish</h4>
           <p class="food-protein">22 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/panner.jpg"
-          />
+          <img src="./new/panner.jpg" />
           <h4 class="food-name">Paneer</h4>
           <p class="food-protein">20 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/almonds.jpg"
-          />
+          <img src="./new/almonds.jpg" />
           <h4 class="food-name">Almonds</h4>
           <p class="food-protein">20 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/soyabadi.jpg"
-          />
+          <img src="./new/soyabadi.jpg" />
           <h4 class="food-name">Soybeans</h4>
           <p class="food-protein">36 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/peanuts.jpg"/>
+          <img src="./new/peanuts.jpg" />
           <h4 class="food-name">Peanuts</h4>
           <p class="food-protein">28.5 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/glass-of-milk.jpg"
-          />
+          <img src="./new/glass-of-milk.jpg" />
           <h4 class="food-name">Milk</h4>
           <p class="food-protein">3.4 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/oats.jpg"
-          />
+          <img src="./new/oats.jpg" />
           <h4 class="food-name">Oats</h4>
           <p class="food-protein">13 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/peanut butter.jpg"
-          />
+          <img src="./new/peanut butter.jpg" />
           <h4 class="food-name">Peanut Butter</h4>
           <p class="food-protein">7 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/yogut.jpg"
-          />
+          <img src="./new/yogut.jpg" />
           <h4 class="food-name">Greek yogurt</h4>
           <p class="food-protein">15 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/cashews.jpg"
-          />
+          <img src="./new/cashews.jpg" />
           <h4 class="food-name">Cashews</h4>
           <p class="food-protein">18 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/Pistachios.jpg"
-          />
+          <img src="./new/Pistachios.jpg" />
           <h4 class="food-name">Pistachios</h4>
           <p class="food-protein">20 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/walnuts.jpg"
-          />
+          <img src="./new/walnuts.jpg" />
           <h4 class="food-name">walnut</h4>
           <p class="food-protein">15 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/Avocado.jpg"
-          />
+          <img src="./new/Avocado.jpg" />
           <h4 class="food-name">Avocado</h4>
           <p class="food-protein">4 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/Lentils.jpg"
-          />
+          <img src="./new/Lentils.jpg" />
           <h4 class="food-name">Lentils</h4>
           <p class="food-protein">9 g protein</p>
         </div>
-         <div class="food-card">
-          <img
-            src="./new/beef.jpg"
-          />
+        <div class="food-card">
+          <img src="./new/beef.jpg" />
           <h4 class="food-name">Beef</h4>
           <p class="food-protein">26 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/edamame.jpeg"
-          />
+          <img src="./new/edamame.jpeg" />
           <h4 class="food-name">Edamame</h4>
           <p class="food-protein">11 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/Lima beans.jpg"
-          />
+          <img src="./new/Lima beans.jpg" />
           <h4 class="food-name">Lima Bean</h4>
           <p class="food-protein">8 g protein</p>
         </div>
-         <div class="food-card">
-          <img
-            src="./new/sunflower seed.webp"
-          />
+        <div class="food-card">
+          <img src="./new/sunflower seed.webp" />
           <h4 class="food-name">Sunflower Seeds</h4>
           <p class="food-protein">21 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/cheese.webp"
-          />
+          <img src="./new/cheese.webp" />
           <h4 class="food-name">Cheese</h4>
           <p class="food-protein">25 g protein</p>
         </div>
-         <div class="food-card">
-          <img
-            src="./new/bread.jpg"
-          />
+        <div class="food-card">
+          <img src="./new/bread.jpg" />
           <h4 class="food-name">Bread</h4>
           <p class="food-protein">9 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/cereal.webp"
-          />
+          <img src="./new/cereal.webp" />
           <h4 class="food-name">Cereal</h4>
           <p class="food-protein">13 g protein</p>
         </div>
         <div class="food-card">
-          <img
-            src="./new/wheat.webp"
-          />
+          <img src="./new/wheat.webp" />
           <h4 class="food-name">Wheat</h4>
           <p class="food-protein">14 g protein</p>
         </div>

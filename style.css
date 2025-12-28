@@ -408,88 +408,38 @@ option:hover {
   color: #8ecbff;
 }
  /* 768 */
-@media (max-width: 768px) {
-
-  .logo-container {
-    padding: 10px 20px;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    gap: 15px;
-    margin-top: 10px;
-  }
-}
-
-@media (max-width: 768px) {
-
-  #home {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding-top: 10px;
-    padding-left: 0%;
-  }
-
-  .home-text {
-    max-width: 100%;
-  }
-
-  .home-text h2 {
-    font-size: 26px;
-  }
-
-  .home-text p {
-    font-size: 20px;
-    line-height: 1.5;
-  }
-}
-
-@media (max-width: 768px) {
-  .btn {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .home-text button {
-    width: 80%;
-  }
-}
-@media (max-width: 480px) {
-  .food-grid {
-    grid-template-columns: 1fr;
-  }
-}
- 
-@media (max-width: 768px) {
-
-  .menu-toggle {
-    display: block;
-  }
-
-  .nav-links {
+ @media (max-width: 768px) {
+  nav {
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);
+    background: #041224;
     flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    padding: 20px 0;
     display: none;
   }
 
-  .nav-links.active {
+  nav.show {
     display: flex;
+    color: white;
+  }
+
+  nav a {
+    padding: 15px;
+    /* text-align: center; */
+    /* display: flex; */
+    margin-left: 300px;
+    color: white;
+     
+  }
+  nav a :hover{
+    background: #032e92;
+    color: white;
+  }
+
+  .menu {
+    display: block;
+    color: white;
+    cursor: pointer;
   }
 }
-
-@media (max-width:768px)
-{
-   .search-container{
-    width: 50%;
-    margin-right: 90px;
-   }
-}
- 
