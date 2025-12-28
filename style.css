@@ -426,20 +426,17 @@ option:hover {
 
   nav a {
     padding: 15px;
-    /* text-align: center; */
-    /* display: flex; */
-    margin-left: 300px;
+    text-align: center;
     color: white;
      
-  }
-  nav a :hover{
-    background: #032e92;
-    color: white;
   }
 
   .menu {
     display: block;
     color: white;
     cursor: pointer;
+  }
+  .jr{
+    display: none;
   }
 }
