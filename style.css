@@ -483,10 +483,10 @@ option:hover {
   margin-right: 0px;
 }
 }
-@media (max-width:768px){
+/* @media (max-width:768px){
   #login-box{
   width: 380px;
   padding: 30px;
   border-radius: 18px;
   }
-}
+} */
