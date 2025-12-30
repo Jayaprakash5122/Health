@@ -507,6 +507,7 @@ option:hover {
 @media (max-width: 768px){
   #home{
         width: 125vw;
+        height: 110vh;
   }
 }
 @media (max-width: 768px){
@@ -517,12 +518,15 @@ option:hover {
 @media (max-width: 768px){
    #loginpage{
     width: 125vw;
+    height: 110vh;
    }
    #calculator{
     width: 125vw;
+    height: 110vh;
    }
    #foods{
     width: 125vw;
+    height: 110vh;
    }
 }
 @media (max-width: 768px){
