@@ -496,7 +496,8 @@ option:hover {
 }
 @media (max-width: 768px) {
   .logo-image {
-      width: 63vw;
+      width: 65vw;
+      margin-left: 35px;
   }
 }
 @media (max-width: 768px) {
@@ -506,27 +507,27 @@ option:hover {
 }
 @media (max-width: 768px){
   #home{
-        width: 125vw;
-        height: 110vh;
+        width: 143vw;
+        min-height: 110vh;
   }
 }
 @media (max-width: 768px){
   header{
-    width: 125vw;
+    width: 143vw;
   }
 }
 @media (max-width: 768px){
    #loginpage{
-    width: 125vw;
-    height: 110vh;
+    width: 143vw;
+    min-height: 110vh;
    }
    #calculator{
-    width: 125vw;
-    height: 110vh;
+    width: 143vw;
+    min-height: 110vh;
    }
    #foods{
-    width: 125vw;
-    height: 110vh;
+    width: 143vw;
+    min-height: 110vh;
    }
 }
 @media (max-width: 768px){
