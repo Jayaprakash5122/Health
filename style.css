@@ -460,7 +460,7 @@ option:hover {
     display: none;
   }
   .search-container{
-     width:100%;
+     width:90%;
      align-items: center;
      justify-items: center;
      margin-left: 4px;
@@ -497,7 +497,7 @@ option:hover {
 @media (max-width: 768px) {
   .logo-image {
       width: 65vw;
-      margin-left: 35px;
+      margin-left: 51px;
   }
 }
 @media (max-width: 768px) {
@@ -533,7 +533,7 @@ option:hover {
 }
 @media (max-width: 768px){
   .food-card{
-    margin-left: 15px;
+    margin-left: 50px;
   }
   .menu{
      margin-right: 30px;
