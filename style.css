@@ -508,7 +508,8 @@ option:hover {
 @media (max-width: 768px){
   #home{
         width: 143vw;
-        min-height: 150vh;
+        min-height: 137vh;
+        margin-top: 1px;
   }
 }
 @media (max-width: 768px){
@@ -519,15 +520,15 @@ option:hover {
 @media (max-width: 768px){
    #loginpage{
     width: 143vw;
-    min-height: 150vh;
+    min-height: 137vh;
    }
    #calculator{
     width: 143vw;
-    min-height: 150vh;
+    min-height: 137vh;
    }
    #foods{
     width: 143vw;
-    min-height: 150vh;
+    min-height: 137vh;
    }
 }
 @media (max-width: 768px){
